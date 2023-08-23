@@ -8,7 +8,7 @@ Zombie::Zombie(std::string input)
 
 Zombie::~Zombie(void)
 {
-	std::cout << name << std::endl;
+	std::cout << name << " got absolutely Wrecked!"<< std::endl;
 }
 
 void Zombie::announce(void)
