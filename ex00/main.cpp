@@ -6,6 +6,7 @@ int	main(void)
 
 	randomChump("jake");
 	mike = newZombie("mike");
+	mike->announce();
 	delete mike;
 }
 
