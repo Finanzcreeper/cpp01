@@ -12,6 +12,11 @@ int main (int argc, char *argv[])
 		std::cout << "incorrect amout of arguments!" << std::endl;
 		return (1);
 	}
+	if (strlen(argv[2]) < 1)
+	{
+		std::cout << "cant replace nothing!" << std::endl;
+		return (1);
+	}
 	new_name += argv[1];
 	new_name += ".replace";
 	output.open(new_name.c_str(), std::ios::trunc);
